@@ -32,8 +32,8 @@ class GuessingGame(EasyFrame):
         self.input = self.addIntegerField(0, row=5, column=4, width=25)
         self.nextGuessBtn = self.addButton(text='Next Guess', row=5, column=0, command=self.nextGuess)
         self.nextGameBtn = self.addButton(text='Next Game', row=5, column=3, command=self.nextGame, state='disabled')
-        self.quitBtn = self.addButton(text='Quit', row=5, column=4, command=self.quitGame)
-        self.hintBtn = self.addButton(text='Hint', row=5, column=2, command=self.hintVal)
+        #self.quitBtn = self.addButton(text='Quit', row=5, column=4, command=self.quitGame)
+        #self.hintBtn = self.addButton(text='Hint', row=5, column=2, command=self.hintVal)
     
     def nextGuess(self):
         # print(self.input.keys())
